@@ -1,0 +1,136 @@
+*{
+  border: solid red 1px;
+
+}
+.App {
+  text-align: center;
+}
+.location{
+  color: white;
+}
+.header{
+  background-image: url('https://cdn.hipwallpaper.com/i/24/50/4AG7w6.jpg');
+ color: black;
+ background-position: 1px;
+ background-size: 100%;
+ border: #FFFFFF 5px solid;
+ margin: 10px #FFFFFF;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+Link:active{
+  color: red
+}
+.hikelist{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+.hikeName{
+  font-family:  'Playfair Display', serif;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: rgb(67, 45, 135)
+}
+img{
+  width: 50%;
+  border: 2px black solid;
+}
+.hdImage{
+width: 70%;
+height: 400px;
+}
+.trailName{
+  font-family: sans-serif;
+}
+.title{
+  font-family:  'Playfair Display', serif;
+  color: rgb(73, 138, 105);
+}
+.card{
+  width: 300px;
+}
+.hikeName{
+  font-size: 18px;
+
+}
+.difficulties{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.easy{
+  border: green 5px solid;
+  color: white;
+  border-radius: 10px;
+  background: green;
+}
+.intermediate{
+  border: blue 5px solid;
+  color: white;
+  border-radius: 10px;
+  background: blue;
+}
+.hard{
+  border: black 5px solid;
+  color: white;
+  border-radius: 10px;
+  background: black;
+}
+.difficulty{
+color: blue;
+}
+.description{
+  font-family: sans-serif;
+}
+body{
+  background-position: cover;
+  background-image: radial-gradient(#dbd5a4,#649173);
+}
+
+@media (max-width: 500px) {
+
+img{
+  width: 75%;
+  margin: auto;
+
+}
+button{
+  width: 20%;
+  background-color: white;
+}
+body{
+  background-image: radial-gradient( #649173,#dbd5a4);
+}
+.hdImage{
+  width: 70%;
+  height: 175px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.location{
+  color: blue
+}
+.footer{
+  font-family: 'Great Vibes', cursive;
+}
+}
