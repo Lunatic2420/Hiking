@@ -9,12 +9,14 @@
   color: white;
 }
 .header{
+  position: sticky;
   background-image: url('https://cdn.hipwallpaper.com/i/24/50/4AG7w6.jpg');
  color: black;
  background-position: 1px;
  background-size: 100%;
  border: #FFFFFF 5px solid;
  margin: 10px #FFFFFF;
+ top: 0;
 }
 
 .App-header {
