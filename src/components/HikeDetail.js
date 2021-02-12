@@ -42,7 +42,7 @@ render(){
 
   return (
       <div>
-                 
+        <div>    
                <div key={this.state.id} className='trail'>
                     <h3 className='title'>{this.state.name}</h3> 
                     <p className='difficulty'>Difficulty: {this.state.difficulty}</p>
@@ -53,7 +53,7 @@ render(){
                    
                 </div>
            
-                
+        </div>  
       </div>
     
   )

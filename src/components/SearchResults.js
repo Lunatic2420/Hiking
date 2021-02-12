@@ -11,10 +11,9 @@ class SearchResults extends Component {
       city: 'boston'
     }
 }
-async componentDidMount(){
-  // this.createCoordinates()
-
-} 
+async  componentDidMount(){
+  
+}
 handleSubmit = (e)=>{
   e.preventDefault()
   this.createCoordinates();

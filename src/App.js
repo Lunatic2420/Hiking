@@ -23,8 +23,8 @@ class App extends Component {
             <Route exact path='/hike' render={() => <Hike />}/> 
             <Route exact path='/hikedetails/:id' component ={HikeDetail}/>
             <Route exact path='/searchresults' component={SearchResults}/>
-            <Route exact path = '/'/>
-            <Route component={NotFound} /> 
+            <Route exact path = '/' />
+            <Route component = {NotFound}/> 
            </Switch>
         
          </main>
